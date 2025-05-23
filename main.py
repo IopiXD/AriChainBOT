@@ -43,6 +43,7 @@ def display_banner():
     ██║╚██████╔╝██║     ██║
     ╚═╝ ╚═════╝ ╚═╝     ╚═╝
     Is Her :)
+    AriChain Daily
     """
     print(Fore.MAGENTA + banner)
 
