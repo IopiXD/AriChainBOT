@@ -104,7 +104,6 @@ Download apps Ari Wallet in Playstore / Apps Store
   - `CHECKIN_URL`: For daily check-ins.
   - `QUIZ_QUESTION_URL` and `QUIZ_ANSWER_URL`: For quiz interactions.
   - `EVENTS_URL`: For fetching events.
-- **SKIP_IDS**: List of event IDs to skip (e.g., `["3", "4", "5", "6", "18"]`).
 - **ThreadPoolExecutor** (`main.py` only): Configured with `max_workers=5` for login and `max_workers=5` for account processing. Adjust these values based on your system's capacity.
 - **Retry Mechanism**: The scripts retry failed API requests up to 7 times with exponential backoff.
 
