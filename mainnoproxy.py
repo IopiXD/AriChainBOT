@@ -11,19 +11,19 @@ import datetime
 init(autoreset=True)
 
 # Constants
-BASE_URL = "https://arichain.io/api/event/"
-CHECKIN_URL = "https://arichain.io/api/event/checkin"
+BASE_URL = "https://mobile.arichain.io/api/event/"
+CHECKIN_URL = "https://mobile.arichain.io/api/event/get_checkin"
 QUIZ_QUESTION_URL = BASE_URL + "quiz_q"
 QUIZ_ANSWER_URL = BASE_URL + "quiz_a"
-EVENTS_URL = "https://arichain.io/api/event/get_app_event_all"
-SIGNIN_URL = "https://arichain.io/api/account/signin_mobile"
+EVENTS_URL = "https://mobile.arichain.io/api/event/get_app_event_all"
+SIGNIN_URL = "https://mobile.arichain.io/api/account/signin_mobile"
 
 HEADERS = {
     "user-agent": "Dart/3.3 (dart:io)",
     "content-type": "application/x-www-form-urlencoded; charset=utf-8",
     "accept": "application/json",
     "accept-encoding": "gzip",
-    "host": "arichain.io"
+    "host": "mobile.arichain.io"
 }
 SKIP_IDS = ["3", "4", "5", "6", "18"]
 
