@@ -15,7 +15,7 @@ init(autoreset=True)
 
 # Constants
 BASE_URL = "https://mobile.arichain.io/api/event/"
-CHECKIN_URL = "https://mobile.arichain.io/api/event/get_checkin"
+CHECKIN_URL = "https://mobile.arichain.io/api/event/checkin"
 QUIZ_QUESTION_URL = BASE_URL + "quiz_q"
 QUIZ_ANSWER_URL = BASE_URL + "quiz_a"
 EVENTS_URL = "https://mobile.arichain.io/api/event/get_app_event_all"
